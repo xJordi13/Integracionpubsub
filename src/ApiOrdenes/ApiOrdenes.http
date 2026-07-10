@@ -1,0 +1,12 @@
+@ApiOrdenes_HostAddress = http://localhost:5053
+### Crear un producto (cambia el puerto por el mostrado en Aspire)
+POST {{ApiOrdenes_HostAddress}}/api/productos
+Content-Type: application/json
+
+{
+  "nombre": "Laptop",
+  "cantidad": 25
+}
+
+### Verificar que el estado cambió de Pendiente a Procesado
+GET {{ApiOrdenes_HostAddress}}/api/productos

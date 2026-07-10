@@ -1,0 +1,8 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/ApiFacturacion/ApiFacturacion.csproj" />
+    <Project Path="src/ApiOrdenes/ApiOrdenes.csproj" />
+    <Project Path="src/IntegracionPubSub.Contracts/IntegracionPubSub.Contracts.csproj" />
+    <Project Path="src/IntegracionPubSub.ServiceDefaults/IntegracionPubSub.ServiceDefaults.csproj" />
+  </Folder>
+</Solution>
